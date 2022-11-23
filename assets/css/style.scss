@@ -1,5 +1,17 @@
 ---
 ---
+$primary: #3E12A5;
+$secondary: #E581E0;
+$light: #FAF9F8;
+$dark: #1F2753;
+
+@import "../bootstrap/scss/bootstrap";
+
+.logo{
+	min-width:75px;
+	max-width:150px;
+	width:20vw;
+}
 
 .header-light{
 	font-size: calc(1.3rem + .6vw);

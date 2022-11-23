@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="vh-100 min-vh-100">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,67 +8,53 @@
     <meta name="generator" content="Hugo 0.101.0">
     <title>NENO Los Angeles</title>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 
     <link rel="stylesheet" href="./assets/css/style.css" />
 
   </head>
 
-  <body">
-    <div class="container-fluid  min-vh-100">
-      <div class="row min-vh-100 vh-100 d-flex">
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index">
+          <img src="./assets/img/neno-logo.png" class="logo ms-3 d-inline-block"/>
+        </a>
 
-      <div class="col-12 col-lg-6 text-center justify-content-center vh-100">
-          <div class="d-none d-lg-block row h-25">
-            <div class="col-4 mx-3 my-3">
-              <a href="https://neno-la.org">
-                <img src="./assets/img/neno-logo.png" class="img-fluid" />
-              </a>
-            </div>
-          </div>
-          <div class="d-lg-none row">
-            <div class="col-4 mx-3 my-3">
-              <a href="https://neno-la.org">
-                <img src="./assets/img/neno-logo.png" class="img-fluid" />
-              </a>
-            </div>
-          </div>
-          <div class="d-lg-none row justify-content-center" style="background-color:#1F76DE;">
-            <div class="col-10 my-4 mx-4">
-              <p class="neno-banner">Welcome to NENO!</p>
-              <p class="neno-blurb"> We’re a grassroots organization working to support and advocate for unhoused people in Northeast LA.</p>
-            </div>
-          </div>
-          <div class="d-none d-lg-block row h-50 justify-content-center">
-            <div class="col-8 my-auto mx-auto">
-              {{content}}
-            </div>
-          </div>
-          <div class="d-lg-none row justify-content-center">
-            <div class="col-8 mt-4 mb-2 mx-auto">
-              {{content}}
-            </div>
-          </div>
-          <div class="d-none d-lg-block row h-25 justify-content-center">
-            <div class="col-8 mt-4 mb-1 mx-auto">
-              <p class="footer">Northeast Neighborhood Outreach (NENO) is a 501(c)(3) organization serving unhoused people in Highland Park and Eagle Rock.</p>
-            </div>
-          </div>
-          <div class="d-lg-none row justify-content-center" style="background-color:#1F76DE;">
-            <div class="col-8 my-3 text-white">
-              <p class="footer mb-0">Northeast Neighborhood Outreach (NENO) is a 501(c)(3) organization serving unhoused people in Highland Park and Eagle Rock.</p>
-            </div>
-          </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end me-3" id="navbarNav">
+          <ul class="navbar-nav justify-content-center">
+          {% assign site_pages = "index, about, join, donate" | split: ", " %}
+          {% assign curr_page = page.name | remove: ".md" %}
+          {% for link in site_pages %}
+            {% if link == curr_page %}
+              {% assign style = "class='nav-link active' aria-current='page'" %}
+            {% else %}
+              {% assign style = "class='nav-link'" %}
+            {% endif %}
+            <li class="nav-item text-center">
+              {% if link != "index" %}
+                <a {{style}} href="{{link}}">{{link | capitalize}}</a>
+              {% else %}
+                <a {{style}} href="{{link}}">Home</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
       </div>
-      <div class="d-none d-lg-block col-6" style="background-color:#1F76DE;">
-        <div class="row h-100">
-          <div class="col-10 my-auto ps-4">
-            <p class="neno-banner">Welcome to NENO!</p>
-            <p class="neno-blurb"> We’re a grassroots organization working to support and advocate for unhoused people in Northeast LA.</p>
-          </div>
+    </nav>
+    <div class="container-fluid">
+      {{ content }}
+      <div class="row justify-content-center">
+        <div class="col-8 mt-4 mb-1 mx-auto text-center">
+          <p class="footer">Northeast Neighborhood Outreach (NENO) is a 501(c)(3) organization serving unhoused people in Highland Park and Eagle Rock.</p>
+        </div>
       </div>
     </div>
-  </div>
+
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
