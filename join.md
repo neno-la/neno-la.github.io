@@ -45,3 +45,11 @@ layout: default
         </div>
 
 </div>
+
+<div class="col-10 mx-auto py-2 rounded-3 bg-accent">
+	<h3 class="text-dark col-8 my-4 mx-auto text-bold">Join our mailing list!</h3>
+
+	<p class="col-8 fs-5 mx-auto">Move existing sign-up form over here.</p>
+
+
+</div>
