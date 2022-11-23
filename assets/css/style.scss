@@ -4,6 +4,7 @@ $primary: #3E12A5;
 $secondary: #E581E0;
 $light: #FAF9F8;
 $dark: #1F2753;
+$accent: #9fa8ed;
 
 @import "../bootstrap/scss/bootstrap";
 
@@ -11,6 +12,18 @@ $dark: #1F2753;
 	min-width:75px;
 	max-width:150px;
 	width:20vw;
+}
+
+.bg-accent{
+	background-color: $accent;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.navbar{
+	min-height: 7.5vw;
 }
 
 .header-light{
