@@ -2,29 +2,29 @@
 layout: default
 ---
 <div class="p-5 bg-dark rounded-3 text-light">
-	<div class="container-fluid py-5">
+	<div class="container-fluid py-md-5 py-3">
 		<p class="neno-blurb">NENO is a 100% volunteer-run organization that relies on donors to fund our work.</p>
-		<h1 class="display-5 fw-bold">Here's how you can get involved.</h1>
+		<h1 class="display-5 fw-bold mb-0">Here's how you can get involved.</h1>
 	</div>
 </div>
 
 {% assign heading-color = "text-secondary" %}
 {% assign outer-col-size = "col-12" %}
-{% assign inner-col-size = "col-10 col-md-6" %}
+{% assign inner-col-size = "col-10 col-md-6 pe-5" %}
 {% assign image-size = "col-10 col-md-3 my-4" %}
 {% capture hrule %}
 	<hr class='col-9 mx-auto my-4' />
 {% endcapture %}
-<div class="{{outer-col-size}} py-2 mx-auto my-4">
+<div class="{{outer-col-size}} py-2 mx-auto mt-4">
 
-	<h3 class="col-9 my-4 m-auto {{heading-color}} text-bold">Volunteer with us!</h3>
+	<h3 class="col-9 my-2 m-auto {{heading-color}} fw-bold">Volunteer with us!</h3>
 
-	<p class="col-9 fs-5 mx-auto">We are currently seeking new volunteers to help build our organization.</p>
+	<p class="col-9 lead fs-5 mx-auto">We are currently seeking new volunteers to help build our organization.</p>
 
 	{{hrule}}
 	<div class="row align-items-center justify-content-center">
 		<div class="{{inner-col-size}}">
-			<h5 class="{{heading-color}} my-4 mx-auto">Outreach (Eagle Rock or Highland Park)</h5>
+			<h4 class="{{heading-color}} my-4 fw-bold mx-auto">Outreach (Eagle Rock or Highland Park)</h4>
 			<p class="fs-5 mx-auto"><b>What:</b> Visit our unhoused neighbors to build relationships with them, check in about any services they might need, and distribute supplies such as groceries, tents, and hygeine kits. <em>Volunteers que pueden hablar español encouraged!</em></p>
 			<p class="fs-5 mx-auto"><b>When:</b> Sundays, 10:30am-1pm.</p>
 			<div class="d-grid col-8 col-md-4 mt-4 me-auto">
@@ -41,7 +41,7 @@ layout: default
 
 	<div class="row align-items-center justify-content-center">
 		<div class="{{inner-col-size}}">
-			<h5 class="{{heading-color}} my-4 mx-auto text-bold">Bagging</h5>
+			<h4 class="{{heading-color}} my-4 fw-bold mx-auto">Bagging</h4>
 			<p class="fs-5 mx-auto"><b>What:</b> Help us prepare for weekly outreach by preparing grocery bags for each neighbor on our route, gathering any additional supplies they might need.</p>
 			<p class="fs-5 mx-auto"><b>When:</b> Saturdays, 9:30-10:30am.</p>
 			<div class="d-grid col-8 col-md-4 mt-4 me-auto">
@@ -56,7 +56,7 @@ layout: default
 	{{hrule}}
 	<div class="row align-items-center justify-content-center">
 		<div class="{{inner-col-size}}">
-			<h5 class="{{heading-color}} my-4 mx-auto text-bold">Social Media and Fundraising</h5>
+			<h4 class="{{heading-color}} my-4 fw-bold mx-auto">Social Media and Fundraising</h4>
 			<p class="fs-5 mx-auto"> We also are seeking a social media coordinator and general help with fundraising! Please email <a href="mailto:info@neno-la.org">info@neno-la.org</a> if you are interested. </p>
 		</div>
 		<div class="{{image-size}}">
@@ -68,7 +68,7 @@ layout: default
 
 {% assign heading-color = "text-dark" %}
 
-<div class="{{outer-col-size}} py-4 card-rounded mx-auto bg-accent">
+<div class="{{outer-col-size}} pt-4 pb-2 card-rounded mx-auto bg-accent">
 	<div class="row align-items-center justify-content-center">
 		<div class="{{inner-col-size}}">
 			<h3 class="my-4 mx-auto {{heading-color}} text-bold">Donate</h3>
@@ -91,7 +91,7 @@ layout: default
 {% assign heading-color = "text-secondary" %}
 
 <div class="{{outer-col-size}} mx-auto" >
-	<div class="row align-items-center justify-content-center h-100" style="min-height: 30vw;">
+	<div class="row align-items-center justify-content-center h-100" style="min-height: 25vw;">
 		<div class="col-10 col-md-5 text-center text-md-start">
 			<h3 class="{{heading-color}} my-4 mx-auto text-bold">Stay up-to-date on NENO's events and current work!</h3>
 

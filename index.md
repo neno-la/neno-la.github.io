@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<div class="row d-flex mh-100 rounded-3" style="height: 75vh; min-height: 375px;">
+<div class="row d-flex mh-100 rounded-3" style="height: 70vh; min-height: 375px;">
 
   <div class="col-12 col-lg-6 text-center justify-content-center h-100">
       <div class="d-lg-none row justify-content-center h-100 bg-dark">

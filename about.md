@@ -3,9 +3,9 @@ layout: default
 ---
 
 <div class="p-5 bg-dark rounded-3 text-light">
-	<div class="container-fluid py-5">
+	<div class="container-fluid py-3 py-md-5">
 		<p class="neno-blurb">NENO has worked since 2019 to support unhoused people in Northeast&nbsp;LA.</p>
-		<h1 class="display-5 fw-bold">Learn more about who we&nbsp;are.</h1>
+		<h1 class="display-5 fw-bold mb-0">Learn more about who we&nbsp;are.</h1>
 	</div>
 </div>
 
@@ -14,10 +14,10 @@ layout: default
 {% assign image-size = "col-8 col-md-4 my-2" %}
 
 <div class="{{outer-col-size}} py-2 mx-auto my-4">
-	<div class="col-11 col-md-8 mx-auto my-4 text-center-md">
+	<div class="col-11 col-md-8 mx-auto my-md-4 text-center-md">
 		<h3 class="text-secondary mx-auto mb-4 fw-bold">Northeast Neighborhood Outreach (NENO) is a volunteer-led and volunteer-run organization that supports our unhoused neighbors in northeast Los Angeles.</h3>
 
-		<p class="fs-5 mx-auto"> We deliver this support through weekly outreach, connection to services, and policy advocacy. Our goal is to improve the lives of those who are currently unhoused in northeast LA, and to do what we can to help end the housing&nbsp;crisis. </p>
+		<p class="fs-5 mx-auto mb-0"> We deliver this support through weekly outreach, connection to services, and policy advocacy. Our goal is to improve the lives of those who are currently unhoused in northeast LA, and to do what we can to help end the housing&nbsp;crisis. </p>
 	</div>
 </div>
 
@@ -31,7 +31,7 @@ layout: default
 			<p class="fs-5 mx-auto">
 			With SELAH’s support, our diverse team acquired experience, built trust through consistent presence in the community, and engaged in neighborhood councils and policy discussions. As we set our own course, we will also use our own voice on issues that shape life for the unhoused in our city. </p>
 		</div>
-		<div class="{{image-size}}">
+		<div class="{{image-size}} mb-4">
 			<img src="assets/img/bagging.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 25vw; min-height:250px;"/>
 		</div>
 	</div>
@@ -50,7 +50,7 @@ layout: default
 			<p class="fs-5 mx-auto">
 			Behind that program are NENO’s dedicated bagging volunteers and the gracious support of Highland Park Brewery, the generous sponsor of our food distribution program and a great place to grab a pint, we think. </p>
 		</div>
-		<div class="{{image-size}} d-flex d-md-none">
+		<div class="{{image-size}} d-flex d-md-none mb-4">
 			<img src="assets/img/outreach-wide.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 30vw; min-height:250px;"/>
 		</div>
 
@@ -65,11 +65,11 @@ layout: default
 			<p class="fs-5 mx-auto"> NENO is a "member nonprofit," meaning our board and officers are elected annualy by our members, and important decisions about our organization are made by members in our general meetings. We're a 501(c)(3) nonprofit organization, which allows donations to our organization to be tax-deductible.</p>
 
 			<p class="fs-5 mx-auto">If you are interested in joining NENO, check out our open volunteering opportunities below; we are always looking for passionate new members who want to partner with us to improve life for unhoused people in our neighborhood.</p>
-			<div class="d-grid col-4 mt-4 me-auto">
+			<div class="d-grid col-4 mt-4 mx-auto me-md-auto">
 	         	<a href="join" role="button" class="btn btn-primary rounded-pill">Join us!</a>
 	        </div>
 		</div>
-		<div class="{{image-size}}">
+		<div class="{{image-size}} mb-4">
 			<img src="assets/img/bagging-wide-shot.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 25vw; min-height: 250px;"/>
 		</div>
 	</div>
