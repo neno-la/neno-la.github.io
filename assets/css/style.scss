@@ -14,8 +14,21 @@ $accent: #9fa8ed;
 	width:20vw;
 }
 
+.vdiv{
+	width:1.5px;
+	background-color:$dark;
+	height: 65vh;
+	padding-left: 0px;
+	padding-right: 0px;
+	max-height: 20vw;
+}
+
 .bg-accent{
 	background-color: $accent;
+}
+
+.card-rounded{
+	border-radius: 15px;
 }
 
 .text-justify {
@@ -30,11 +43,6 @@ $accent: #9fa8ed;
 	font-size: calc(1.3rem + .6vw);
 	font-weight: 200;
 	margin-bottom: 0;
-}
-
-.button-signup{
-	background-color: #21C3B5;
-	border-color: #21C3B5;
 }
 
 .email-call{
