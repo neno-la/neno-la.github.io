@@ -10,16 +10,16 @@ layout: default
 
 {% assign heading-color = "text-secondary" %}
 {% assign outer-col-size = "col-12" %}
-{% assign inner-col-size = "col-10 col-md-6 pe-5" %}
+{% assign inner-col-size = "col-10 col-md-6 pe-md-5" %}
 {% assign image-size = "col-10 col-md-3 my-4" %}
 {% capture hrule %}
-	<hr class='col-9 mx-auto my-4' />
+	<hr class='col-10 mx-auto my-4' />
 {% endcapture %}
 <div class="{{outer-col-size}} py-2 mx-auto mt-4">
 
-	<h3 class="col-9 my-2 m-auto {{heading-color}} fw-bold">Volunteer with us!</h3>
+	<h3 class="col-10 my-2 m-auto {{heading-color}} fw-bold">Volunteer with us!</h3>
 
-	<p class="col-9 lead fs-5 mx-auto">We are currently seeking new volunteers to help build our organization.</p>
+	<p class="col-10 lead fs-5 mx-auto">We are currently seeking new volunteers to help build our organization.</p>
 
 	{{hrule}}
 	<div class="row align-items-center justify-content-center">
@@ -27,7 +27,7 @@ layout: default
 			<h4 class="{{heading-color}} my-4 fw-bold mx-auto">Outreach (Eagle Rock or Highland Park)</h4>
 			<p class="fs-5 mx-auto"><b>What:</b> Visit our unhoused neighbors to build relationships with them, check in about any services they might need, and distribute supplies such as groceries, tents, and hygeine kits. <em>Volunteers que pueden hablar español encouraged!</em></p>
 			<p class="fs-5 mx-auto"><b>When:</b> Sundays, 10:30am-1pm.</p>
-			<div class="d-grid col-8 col-md-4 mt-4 me-auto">
+			<div class="d-grid col-8 col-md-4 mt-4 mx-auto me-md-auto">
 	         	<a href="https://docs.google.com/spreadsheets/d/1xK-Z8wKjPXjPZx0GIrriprI-n7hftdmHkWFNtyXH4ms/edit?usp=sharing" role="button" class="btn btn-primary rounded-pill">Outreach Sign-up</a>
 	        </div>
 		</div>
@@ -44,7 +44,7 @@ layout: default
 			<h4 class="{{heading-color}} my-4 fw-bold mx-auto">Bagging</h4>
 			<p class="fs-5 mx-auto"><b>What:</b> Help us prepare for weekly outreach by preparing grocery bags for each neighbor on our route, gathering any additional supplies they might need.</p>
 			<p class="fs-5 mx-auto"><b>When:</b> Saturdays, 9:30-10:30am.</p>
-			<div class="d-grid col-8 col-md-4 mt-4 me-auto">
+			<div class="d-grid col-8 col-md-4 mt-4 mx-auto me-md-auto">
 	         	<a href="https://docs.google.com/spreadsheets/d/1mdtFyk6vPqDmUPC8CLY6b24oUKizMSfkURYSpGFo7Qo/edit?usp=sharing" role="button" class="btn btn-primary rounded-pill">Bagging  Sign-up</a>
 	        </div>
 		</div>
