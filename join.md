@@ -8,12 +8,6 @@ layout: default
 	</div>
 </div>
 
-<!-- <div class="col-10 py-2 mx-auto">
-	<h3 class="text-secondary col-8 mx-auto text-start my-4 fw-bold">We are a volunteer-run organization that relies on donors to fund our work. </h3>
-
-	<p class="col-8 fs-5 mx-auto"> The best ways to support NENO are to volunteer with us, or to donate to help fund our-day-to-day operations. Your support will directly better the lives of your neighbors in Northeast LA. </p>
-</div> -->
-
 {% assign heading-color = "text-secondary" %}
 {% assign outer-col-size = "col-12" %}
 {% assign inner-col-size = "col-6" %}
