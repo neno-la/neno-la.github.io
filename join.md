@@ -24,9 +24,9 @@ layout: default
 	{{hrule}}
 	<div class="row align-items-center justify-content-center">
 		<div class="{{inner-col-size}}">
-			<h5 class="{{heading-color}} my-4 mx-auto text-bold">Outreach (Eagle Rock or Highland Park)</h5>
-			<p class="fs-5 mx-auto"><em>What:</em> Visit our unhoused neighbors to build relationships with them, check in about any services they might need, and distribute supplies such as groceries, tents, and hygeine kits. <em>Volunteers que pueden hablar español encouraged!</em></p>
-			<p class="fs-5 mx-auto"><em>When:</em> Sundays, 10:30am-1pm.</p>
+			<h5 class="{{heading-color}} my-4 mx-auto">Outreach (Eagle Rock or Highland Park)</h5>
+			<p class="fs-5 mx-auto"><b>What:</b> Visit our unhoused neighbors to build relationships with them, check in about any services they might need, and distribute supplies such as groceries, tents, and hygeine kits. <em>Volunteers que pueden hablar español encouraged!</em></p>
+			<p class="fs-5 mx-auto"><b>When:</b> Sundays, 10:30am-1pm.</p>
 			<div class="d-grid col-4 mt-4 me-auto">
 	         	<a href="https://docs.google.com/spreadsheets/d/1xK-Z8wKjPXjPZx0GIrriprI-n7hftdmHkWFNtyXH4ms/edit?usp=sharing" role="button" class="btn btn-primary rounded-pill">Outreach Sign-up</a>
 	        </div>
@@ -42,8 +42,8 @@ layout: default
 	<div class="row align-items-center justify-content-center">
 		<div class="{{inner-col-size}}">
 			<h5 class="{{heading-color}} my-4 mx-auto text-bold">Bagging</h5>
-			<p class="fs-5 mx-auto"><em>What:</em> Help us prepare for weekly outreach by preparing grocery bags for each neighbor on our route, gathering any additional supplies they might need.</p>
-			<p class="fs-5 mx-auto"><em>When:</em> Saturdays, 9:30-10:30am.</p>
+			<p class="fs-5 mx-auto"><b>What:</b> Help us prepare for weekly outreach by preparing grocery bags for each neighbor on our route, gathering any additional supplies they might need.</p>
+			<p class="fs-5 mx-auto"><b>When:</b> Saturdays, 9:30-10:30am.</p>
 			<div class="d-grid col-4 mt-4 me-auto">
 	         	<a href="https://docs.google.com/spreadsheets/d/1mdtFyk6vPqDmUPC8CLY6b24oUKizMSfkURYSpGFo7Qo/edit?usp=sharing" role="button" class="btn btn-primary rounded-pill">Bagging  Sign-up</a>
 	        </div>

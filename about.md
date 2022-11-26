@@ -59,7 +59,7 @@ layout: default
 		<div class="{{inner-col-size}} my-4">
 			<h3 class="text-dark my-4 text-bold mx-auto">How we work</h3>
 
-			<p class="fs-5 mx-auto"> NENO is a "member nonprofit," meaning our board and officers are elected annualy by our members, and important decisions about our organization are made by members in our general meetings. We <em> are </em> a 501(c)(3) nonprofit organization, which allows donations to our organization to be tax-deductible.</p>
+			<p class="fs-5 mx-auto"> NENO is a "member nonprofit," meaning our board and officers are elected annualy by our members, and important decisions about our organization are made by members in our general meetings. We're a 501(c)(3) nonprofit organization, which allows donations to our organization to be tax-deductible.</p>
 
 			<p class="fs-5 mx-auto">If you are interested in joining NENO, check out our open volunteering opportunities below; we are always looking for passionate new members who want to partner with us to improve life for unhoused people in our neighborhood.</p>
 			<div class="d-grid col-4 mt-4 me-auto">
