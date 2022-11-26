@@ -10,8 +10,8 @@ layout: default
 
 {% assign heading-color = "text-secondary" %}
 {% assign outer-col-size = "col-12" %}
-{% assign inner-col-size = "col-6" %}
-{% assign image-size = "col-3" %}
+{% assign inner-col-size = "col-10 col-md-6" %}
+{% assign image-size = "col-10 col-md-3 my-4" %}
 {% capture hrule %}
 	<hr class='col-9 mx-auto my-4' />
 {% endcapture %}
@@ -27,12 +27,12 @@ layout: default
 			<h5 class="{{heading-color}} my-4 mx-auto">Outreach (Eagle Rock or Highland Park)</h5>
 			<p class="fs-5 mx-auto"><b>What:</b> Visit our unhoused neighbors to build relationships with them, check in about any services they might need, and distribute supplies such as groceries, tents, and hygeine kits. <em>Volunteers que pueden hablar español encouraged!</em></p>
 			<p class="fs-5 mx-auto"><b>When:</b> Sundays, 10:30am-1pm.</p>
-			<div class="d-grid col-4 mt-4 me-auto">
+			<div class="d-grid col-8 col-md-4 mt-4 me-auto">
 	         	<a href="https://docs.google.com/spreadsheets/d/1xK-Z8wKjPXjPZx0GIrriprI-n7hftdmHkWFNtyXH4ms/edit?usp=sharing" role="button" class="btn btn-primary rounded-pill">Outreach Sign-up</a>
 	        </div>
 		</div>
 		<div class="{{image-size}}">
-			<img src="assets/img/jack-with-bags.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 20vw;"/>
+			<img src="assets/img/jack-with-bags.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 20vw; min-height: 250px;"/>
 		</div>
 	</div>
 
@@ -44,12 +44,12 @@ layout: default
 			<h5 class="{{heading-color}} my-4 mx-auto text-bold">Bagging</h5>
 			<p class="fs-5 mx-auto"><b>What:</b> Help us prepare for weekly outreach by preparing grocery bags for each neighbor on our route, gathering any additional supplies they might need.</p>
 			<p class="fs-5 mx-auto"><b>When:</b> Saturdays, 9:30-10:30am.</p>
-			<div class="d-grid col-4 mt-4 me-auto">
+			<div class="d-grid col-8 col-md-4 mt-4 me-auto">
 	         	<a href="https://docs.google.com/spreadsheets/d/1mdtFyk6vPqDmUPC8CLY6b24oUKizMSfkURYSpGFo7Qo/edit?usp=sharing" role="button" class="btn btn-primary rounded-pill">Bagging  Sign-up</a>
 	        </div>
 		</div>
 		<div class="{{image-size}}">
-			<img src="assets/img/bagging.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 20vw;"/>
+			<img src="assets/img/bagging.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 20vw; min-height: 250px;"/>
 		</div>
 	</div>
 
@@ -60,7 +60,7 @@ layout: default
 			<p class="fs-5 mx-auto"> We also are seeking a social media coordinator and general help with fundraising! Please email <a href="mailto:info@neno-la.org">info@neno-la.org</a> if you are interested. </p>
 		</div>
 		<div class="{{image-size}}">
-			<img src="assets/img/hpb.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 20vw;"/>
+			<img src="assets/img/hpb.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 20vw; min-height: 250px;"/>
 		</div>
 	</div>
 
@@ -81,8 +81,8 @@ layout: default
 	         	<a href="donate" role="button" class="btn btn-primary text-light btn-lg rounded-pill">Donate</a>
 	        </div>
        	</div>
-       	<div class="col-4">
-			<img src="assets/img/rosie-bagging.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 25vw;"/>
+       	<div class="col-md-4 col-10">
+			<img src="assets/img/rosie-bagging.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 25vw; min-height: 250px;"/>
 		</div>
    	</div>
 
@@ -92,7 +92,7 @@ layout: default
 
 <div class="{{outer-col-size}} mx-auto" >
 	<div class="row align-items-center justify-content-center h-100" style="min-height: 30vw;">
-		<div class="col-5">
+		<div class="col-10 col-md-5 text-center text-md-start">
 			<h3 class="{{heading-color}} my-4 mx-auto text-bold">Stay up-to-date on NENO's events and current work!</h3>
 
 			<p class=" fs-5 mx-auto">Join our mailing list to stay connected with us and get regular updates.</p>
@@ -100,9 +100,9 @@ layout: default
 
 		</div>
 
-		<div class="vdiv mx-4"></div>
+		<div class="vdiv mx-4 d-none d-md-block"></div>
 
-		<div class="col-5">
+		<div class="col-10 col-md-5">
 
 			<form method="POST" action="https://api.sheetmonkey.io/form/saj4XFEdD4XTXiU9fCxGuC" id="contact-form">
 		  		<div class="form-group my-2">
