@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="row h-100 justify-content-center align-items-top">
-	<div class="col-11 col-md-8 text-center justify-content-center px-4">
+	<div class="d-none d-md-block col-11 col-md-8 text-center justify-content-center px-4">
 		<h1 class="text-dark display-6 my-4 mx-auto text-bold text-center">Donate to support NENO!</h1>
 		<p class="text-start fs-5"> NENO's work would be impossible without the kindness and support of our donors. We are a 501(c)(3) nonprofit organization, meaning all donations are tax-deductible.</p>
 		<p class="text-start fs-5"> Since we are a completely volunteer organization, all funds go directly to funding our operating costs like supplies for our unhoused neighbors. Any donations are very much appreciated!</p>

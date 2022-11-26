@@ -2,14 +2,14 @@
 layout: default
 ---
 
-<div class="row d-flex mh-100 rounded-3" style="height: 75vh; min-height: 375px;">
+<div class="row d-flex mh-100 rounded-3" style="height: 70vh; min-height: 375px;">
 
   <div class="col-12 col-lg-6 text-center justify-content-center h-100">
       <div class="d-lg-none row justify-content-center h-100 bg-dark">
         <div class="col-10 my-auto mx-4 justify-content-center">
           <p class="neno-banner">Welcome to NENO!</p>
           <p class="neno-blurb"> We’re a grassroots organization working to support and advocate for unhoused people in Northeast&nbsp;LA.</p>
-          <div class="d-grid col-6 col-sm-4 mt-4 mx-auto" style="min-height: 50px;">
+          <div class="d-grid col-6 col-sm-4 mt-4 mx-auto align-content-center" style="min-height: 50px;">
             <a role="button" class="align-middle btn btn-secondary rounded-pill" href="join">Get Involved</a>
           </div>
         </div>
@@ -29,7 +29,7 @@ layout: default
       <div class="col-10 my-auto text-end">
         <p class="neno-banner">Welcome to NENO!</p>
         <p class="neno-blurb"> We’re a grassroots organization working to support and advocate for unhoused people in Northeast&nbsp;LA.</p>
-        <div class="d-grid col-6 col-xl-4 mt-4 ms-auto">
+        <div class="d-grid col-6 col-xl-4 mt-4 ms-auto align-content-center">
           <a href="join" role="button" class="btn btn-secondary btn-lg rounded-pill">Get Involved</a>
         </div>
       </div>
