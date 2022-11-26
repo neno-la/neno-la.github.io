@@ -8,8 +8,8 @@ layout: default
       <div class="d-lg-none row justify-content-center h-100 bg-dark">
         <div class="col-10 my-auto mx-4 justify-content-center">
           <p class="neno-banner">Welcome to NENO!</p>
-          <p class="neno-blurb"> We’re a grassroots organization working to support and advocate for unhoused people in Northeast LA.</p>
-          <div class="d-grid col-4 mt-4 mx-auto" style="min-height: 50px;">
+          <p class="neno-blurb"> We’re a grassroots organization working to support and advocate for unhoused people in Northeast&nbsp;LA.</p>
+          <div class="d-grid col-6 col-sm-4 mt-4 mx-auto" style="min-height: 50px;">
             <a role="button" class="align-middle btn btn-secondary rounded-pill" href="join">Get Involved</a>
           </div>
         </div>
@@ -28,8 +28,8 @@ layout: default
     <div class="row h-100 justify-content-center">
       <div class="col-10 my-auto text-end">
         <p class="neno-banner">Welcome to NENO!</p>
-        <p class="neno-blurb"> We’re a grassroots organization working to support and advocate for unhoused people in Northeast LA.</p>
-        <div class="d-grid col-4 mt-4 ms-auto">
+        <p class="neno-blurb"> We’re a grassroots organization working to support and advocate for unhoused people in Northeast&nbsp;LA.</p>
+        <div class="d-grid col-6 col-xl-4 mt-4 ms-auto">
           <a href="join" role="button" class="btn btn-secondary btn-lg rounded-pill">Get Involved</a>
         </div>
       </div>
