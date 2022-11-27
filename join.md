@@ -17,9 +17,9 @@ layout: default
 {% endcapture %}
 <div class="{{outer-col-size}} py-2 mx-auto mt-4">
 
-	<h3 class="col-10 my-2 m-auto {{heading-color}} fw-bold">Volunteer with us!</h3>
+	<h3 class="col-10 my-2 mx-auto {{heading-color}} text-md-center fw-bold">Volunteer with us!</h3>
 
-	<p class="col-10 lead fs-5 mx-auto">We are currently seeking new volunteers to help build our organization.</p>
+	<p class="col-10 lead fs-5 mx-auto text-md-center">We are currently seeking new volunteers to help us grow our organization.</p>
 
 	{{hrule}}
 	<div class="row align-items-center justify-content-center">

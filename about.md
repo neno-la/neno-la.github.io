@@ -26,10 +26,10 @@ layout: default
 		<div class="{{inner-col-size}}">
 			<h3 class="text-dark my-4 text-bold mx-auto">Our story</h3>
 
-			<p class="fs-5 mx-auto"> Before we were NENO, we were the Eagle Rock-Highland Park chapter of SELAH Neighborhood Homeless Coalition, established in 2019.</p>
+			<p class="fs-5 mx-auto"> Before we were NENO, we were the Eagle Rock-Highland Park chapter of <a href="https://www.selahnhc.org/" class="link-dark">SELAH Neighborhood Homeless Coalition</a>, established in&nbsp;2019.</p>
 
 			<p class="fs-5 mx-auto">
-			With SELAH’s support, our diverse team acquired experience, built trust through consistent presence in the community, and engaged in neighborhood councils and policy discussions. As we set our own course, we will also use our own voice on issues that shape life for the unhoused in our city. </p>
+			With SELAH’s support, our diverse team acquired experience, built trust through consistent presence in the community, and engaged in neighborhood councils and policy discussions. As we set our own course, we will also use our own voice on issues that shape life for the unhoused in our&nbsp;city. </p>
 		</div>
 		<div class="{{image-size}} mb-4">
 			<img src="assets/img/bagging.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 25vw; min-height:250px;"/>
@@ -45,10 +45,10 @@ layout: default
 		<div class="{{inner-col-size}}">
 			<h3 class="text-secondary my-4 text-bold mx-auto">What we do</h3>
 
-			<p class="fs-5 mx-auto"> Each Sunday, NENO volunteers visit dozens of community members experiencing homelessness—exceeding 100 at the peak of the local crisis—where they live. We build trust by supplying basic needs like food, water, clothing, tents, blankets, phone chargers, hygiene kits, and harm reduction supplies. Once trust exists, we support them on their path to housing, whatever that looks like.</p>
+			<p class="fs-5 mx-auto"> Each Sunday, NENO volunteers visit dozens of community members experiencing homelessness—exceeding 100 at the peak of the local crisis—where they live. We build trust by supplying basic needs like food, water, clothing, tents, blankets, phone chargers, hygiene kits, and harm reduction supplies. Once trust exists, we support them on their path to housing, whatever that looks&nbsp;like.</p>
 
 			<p class="fs-5 mx-auto">
-			Behind that program are NENO’s dedicated bagging volunteers and the gracious support of Highland Park Brewery, the generous sponsor of our food distribution program and a great place to grab a pint, we think. </p>
+			Behind that program are NENO’s dedicated bagging volunteers and the gracious support of <a href="https://hpb.la/" class="link-dark">Highland Park Brewery</a>, the generous sponsor of our food distribution program and a great place to grab a pint, we&nbsp;think. </p>
 		</div>
 		<div class="{{image-size}} d-flex d-md-none mb-4">
 			<img src="assets/img/outreach-wide.jpg" class="rounded-3 w-100" style="object-position: center; object-fit:cover; height: 30vw; min-height:250px;"/>
