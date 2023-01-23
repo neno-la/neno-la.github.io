@@ -27,8 +27,8 @@ layout: default
 			<h4 class="{{heading-color}} my-4 fw-bold mx-auto">Outreach (Eagle Rock or Highland Park)</h4>
 			<p class="fs-5 mx-auto"><b>What:</b> Visit our unhoused neighbors to build relationships with them, check in about any services they might need, and distribute supplies such as groceries, tents, and hygeine kits. <em>Volunteers que pueden hablar español encouraged!</em></p>
 			<p class="fs-5 mx-auto"><b>When:</b> Sundays, 10:30am-1pm.</p>
-			<div class="d-grid col-8 col-md-4 mt-4 mx-auto me-md-auto">
-	         	<a href="https://docs.google.com/spreadsheets/d/1xK-Z8wKjPXjPZx0GIrriprI-n7hftdmHkWFNtyXH4ms/edit?usp=sharing" role="button" class="btn btn-primary rounded-pill">Outreach Sign-up</a>
+			<div class="d-grid col-8 col-lg-6 mt-6 mx-auto ms-lg-0 me-lg-auto">
+	         	<a href="mailto:info@neno-la.org" role="button" class="btn btn-primary rounded-pill">Contact Us to Sign Up</a>
 	        </div>
 		</div>
 		<div class="{{image-size}}">
@@ -44,8 +44,8 @@ layout: default
 			<h4 class="{{heading-color}} my-4 fw-bold mx-auto">Bagging</h4>
 			<p class="fs-5 mx-auto"><b>What:</b> Help us prepare for weekly outreach by preparing grocery bags for each neighbor on our route, gathering any additional supplies they might need.</p>
 			<p class="fs-5 mx-auto"><b>When:</b> Saturdays, 9:30-10:30am.</p>
-			<div class="d-grid col-8 col-md-4 mt-4 mx-auto me-md-auto">
-	         	<a href="https://docs.google.com/spreadsheets/d/1mdtFyk6vPqDmUPC8CLY6b24oUKizMSfkURYSpGFo7Qo/edit?usp=sharing" role="button" class="btn btn-primary rounded-pill">Bagging  Sign-up</a>
+			<div class="d-grid col-8 col-lg-6 mt-6 mx-auto ms-lg-0 me-lg-auto">
+	         	<a href="mailto:info@neno-la.org" role="button" class="btn btn-primary rounded-pill">Contact Us to Sign Up</a>
 	        </div>
 		</div>
 		<div class="{{image-size}}">
